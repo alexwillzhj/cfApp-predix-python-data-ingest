@@ -1,0 +1,20 @@
+---
+applications:
+- name: predix-python-power-data-ingest
+  memory: 512M
+  instances: 1
+  buildpack: python_buildpack
+  command: python main.py
+
+services:
+- timeseries-ds
+- asset-ds
+- redis-ds
+
+env:
+    node_env: cloud
+    uaa_service_label: predix-uaa
+    client_id: ds_client1
+    grant_type: client_credentials
+    base64ClientCredential: ZHNfY2xpZW50MTpkYXRh
+    uaa_url: https://shfoundry.predix-uaa.run.aws-jp01-pr.ice.predix.io

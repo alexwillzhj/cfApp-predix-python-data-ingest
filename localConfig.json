@@ -1,0 +1,14 @@
+{
+  "development": {
+    "client_id": "ds_client1",
+    "uaa_url": "https://shfoundry.predix-uaa.run.aws-jp01-pr.ice.predix.io",
+    "grant_type": "client_credentials",
+    "base64ClientCredential": "ZHNfY2xpZW50MTpkYXRh",
+    "timeseries_query_url": "https://time-series-store-predix.run.aws-jp01-pr.ice.predix.io/v1/datapoints",
+    "timeseries_ingest_url": "wss://gateway-predix-data-services.run.aws-jp01-pr.ice.predix.io/v1/stream/messages",
+    "timeseries_zone_id": "27a77a07-8213-4443-b032-e8c9462edd80",
+    "redis_host": "localhost",
+    "redis_port": "7998",
+    "redis_password": "cc0a1cb2-e0c8-41e5-b620-c2969134402b"
+  }
+}

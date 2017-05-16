@@ -1,0 +1,12 @@
+Flask
+apscheduler
+websocket-client
+gunicorn
+pandas
+psycopg2
+scipy
+scikit-learn
+sklearn
+numpy
+redis
+requests
